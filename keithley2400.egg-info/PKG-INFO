@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: keithley2400
+Version: 0.1.0
+Summary: Python driver for Keithley 2400 Series SourceMeter via GPIB/PyVISA
+Requires-Python: >=3.10
+Requires-Dist: pyvisa>=1.13
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
